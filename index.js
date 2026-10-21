@@ -1,54 +1,86 @@
-let geust=document.getElementById('guest');
-let guestcount=0;
-let home=document.getElementById('home');
-let homecount=0
-function homefirst(){
+
+
+
+
+
+// function renderimage(){
+//   for(let i=0; i <myarrycontry.length;i++){
+
+//     addpage.innerHTML+=`<img class="theimage" src="${myarrycontry[i]}" >`
+//   }
+// }
+
+// renderimage()
+
+
+
+
+// deletebtn.addEventListener('click',()=>{
+
+//  sore=''
+// localStorage.setItem('page',sore)
+// addpage.innerHTML=sore
+
+// })
+
+
+// addpage.innerHTML=sore
+
+
+
+
+
+// let geust=document.getElementById('guest');
+// let guestcount=0;
+// let home=document.getElementById('home');
+// let homecount=0
+// function homefirst(){
   
-  homecount++
-  home.value=homecount
-}
+//   homecount++
+//   home.value=homecount
+// }
 
-function homesecond(){
-  homecount+=2
-  home.value=homecount
-}
+// function homesecond(){
+//   homecount+=2
+//   home.value=homecount
+// }
 
-function homethird(){
-  homecount+=3
-  home.value=homecount
-}
+// function homethird(){
+//   homecount+=3
+//   home.value=homecount
+// }
 
-function guestfirst(){
-  guestcount++
-  geust.value=guestcount
-}
+// function guestfirst(){
+//   guestcount++
+//   geust.value=guestcount
+// }
 
-function guestsecond(){
-  guestcount+=2
-  geust.value=guestcount
-}
+// function guestsecond(){
+//   guestcount+=2
+//   geust.value=guestcount
+// }
 
-function guestthird(){
-  guestcount+=3
-  geust.value=guestcount
-}
+// function guestthird(){
+//   guestcount+=3
+//   geust.value=guestcount
+// }
 
 
-function check(){
+// function check(){
   
-  if (homecount>guestcount){
-    document.getElementById('winner').innerHTML='Home is winning'
-  }
+//   if (homecount>guestcount){
+//     document.getElementById('winner').innerHTML='Home is winning'
+//   }
 
 
-  else if (homecount<guestcount){
-    document.getElementById('winner').innerHTML='Guest is winning'
-  }
+//   else if (homecount<guestcount){
+//     document.getElementById('winner').innerHTML='Guest is winning'
+//   }
 
-  else{
-    document.getElementById('winner').innerHTML='Nobody is winning'
-  }
-}
+//   else{
+//     document.getElementById('winner').innerHTML='Nobody is winning'
+//   }
+// }
 
 
 // let count=0
